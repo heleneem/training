@@ -1,0 +1,15 @@
+
+<h1>Flats to rent</h1>
+<div>
+  <% @flats.each do |flat| %>
+    <li><%= link_to flat_path(flat) do %></li>
+    <li><%= flat.name %></li>
+    <li><%= flat.text %></li>
+    <li><%= flat.address %></li>
+    <li><%= flat.price %>€ per night</li>
+    <% end %>
+  <% end %>
+</div>
+<div>
+  <%= link_to "new", new_flat_path, class:"btn btn-warning" %>
+</div>

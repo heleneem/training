@@ -1,0 +1,9 @@
+<div>
+  <%= simple_form_for @flat do |f| %>
+            <%= f.input :name, html5: true, label: "Name" %>
+            <%= f.input :text, html5: true, label: "Description" %>
+            <%= f.input :address, html5: true, label: "Address" %>
+            <%= f.input :price, html5: true, label: "Price" %>
+            <%= f.submit "Create", class:"btn btn-warning" %>
+  <% end %>
+</div>
