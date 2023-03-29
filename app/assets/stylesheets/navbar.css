@@ -1,0 +1,27 @@
+.navbar-lewagon {
+  background: black;
+  justify-content: space-between;
+  position: relative;
+  height: 70px;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-brand-img {
+  width: 180px;
+  top: 13px;
+  position: absolute;
+}
+
+#navbar-right a {
+  color: #FFFFC7;
+  text-decoration: none;
+}
+
+#navbar-right {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 20px
+}

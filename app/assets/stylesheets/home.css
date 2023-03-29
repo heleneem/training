@@ -1,0 +1,17 @@
+.image-home {
+justify-content: center;
+display: flex;
+margin: auto;
+width: 50%;
+position: relative
+}
+
+#home-button {
+  padding: 40px;
+  font-size: x-large;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+

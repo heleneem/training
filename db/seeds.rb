@@ -7,8 +7,8 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 
-Flat.destroy_all
 "Creating flats"
+Flat.destroy_all
 User.destroy_all
 
 
@@ -32,7 +32,7 @@ flat1 = Flat.new ({
   address: "32 Str. of Colombes",
   price: 120
 })
-flat1.user = user1
+# flat1.user = user1
 flat1.save!
 
 flat2 = Flat.new ({
@@ -41,5 +41,5 @@ flat2 = Flat.new ({
   address: "11 boulevard Ricard",
   price: 230
 })
-flat2.user = user2
+# flat2.user = user2
 flat2.save!

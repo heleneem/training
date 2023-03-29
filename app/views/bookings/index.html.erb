@@ -1,0 +1,23 @@
+<%= link_to "retour", flats_path, class:"button-black-yellow" %>
+<div>
+  <div class="title-bookings">
+    <h1>My bookings 🚩</h1>
+  </div>
+  <div href="#" class="text-bookings">
+    <% @bookings.each do |booking| %>
+      <li><%= link_to flat_path(booking.flat.id) do %></li>
+        <strong><%= booking.flat.name %></strong>
+        📆Check-In<%= booking.check_in %>
+        📅Check-Out<%= booking.check_out %>
+        💲Amount <%= booking.flat.price %>€ /night
+      <% end %>
+      <div class="button-cancel-bookings">
+        <%= link_to "cancel booking", booking_path(booking), class:"button-black-yellow", data: {turbo_method: :delete, turbo_confirm:"Are you sure ?"}%>
+      </div>
+    <% end %>
+  </div>
+
+
+
+
+</div>

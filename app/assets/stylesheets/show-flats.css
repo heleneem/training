@@ -1,0 +1,48 @@
+.card-show-infos {
+  height: 173px;
+  margin: auto;
+  top: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  position: relative
+}
+.card-show {
+  width: 56vh;
+  margin: auto;
+
+}
+
+.flat-title  {
+  display:flex;
+  justify-content: center;
+  margin-top: 40px;
+  position: absolute;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.infos-show-flats {
+  margin-top: 115px;
+  text-align: center;
+}
+
+.shows-buttons {
+  display:flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 240px;
+
+}
+
+.bookings-cancel {
+  display: flex;
+  justify-content: center;
+}
+
+.button-cancel {
+  margin-top: 8px;
+}
+.title-already-book {
+  text-transform: uppercase;
+}

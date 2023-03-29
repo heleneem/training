@@ -1,0 +1,11 @@
+.title-bookings {
+  display: flex;
+  justify-content: center;
+}
+
+.text-bookings {
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
